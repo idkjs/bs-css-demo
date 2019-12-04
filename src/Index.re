@@ -6,6 +6,6 @@
  * This file only defines minimal overrides and then calls for platform code.
  */
 // Theme
-let theme = App.createTheme(~textColor=`hex("202020"), ());
+let theme = Config.Theme.make(~textColor="202020", ());
 
 App.start(~theme);
