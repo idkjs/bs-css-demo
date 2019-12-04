@@ -1,0 +1,17 @@
+{
+  "name": "bs-css-demo",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "sources": [
+    "src"
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "bs-css"
+  ],
+  "refmt": 3
+}
