@@ -1,3 +1,6 @@
+/**
+ * This file is the "platform" entrypoint. It defines the platform defaults for e.g. theme values.
+ */
 let createTheme =
     (
       ~primaryColor=`hex("333333"),

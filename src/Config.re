@@ -1,13 +1,15 @@
 /**
- * This file contains the type definitions for the theme
- * Requirements
+ * This file contains the exact types of the theme fields.
+ * It is intentional to require very specific types of values for the fields
+ * so that we are able to calculate with them without the risk
+ * of ending up e.g. summing pixels with points.
  */
 open Css;
 
 type theme = {
   .
-  "primaryColor": Types.Color.t,
-  "brandColor": Types.Color.t,
+  "primaryColor": [ | `hex(string)],
+  "brandColor": [ | `hex(string)],
   "textColor": [ | `hex(string)],
   "baseFontSize": [ | `pt(int)],
   "fontSizeSmall": [ | `pt(int)],
