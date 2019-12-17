@@ -7,6 +7,7 @@ module Styles = {
     style([
       color(theme.main.textColor),
       fontSize(theme.main.fontSizeSmall),
+      fontWeight(theme.main.fontWeight),
     ]);
   };
 };
