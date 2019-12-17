@@ -5,7 +5,15 @@
  *
  * This file only defines minimal overrides and then calls for platform code.
  */
+let main =
+  Config.Theme.makeMain(
+    ~textColor="202020",
+    ~fontSizeLarge=30,
+    ~fontWeight=`normal,
+    (),
+  );
+
 // Theme
-let theme = Config.Theme.make(~textColor="202020", ());
+let theme = Config.Theme.make(~main, ());
 
 App.start(~theme);
