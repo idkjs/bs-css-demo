@@ -3,15 +3,12 @@
   "reason": {
     "react-jsx": 3
   },
-  "bsc-flags": [
-    "-bs-super-errors"
-  ],
-  "sources": [
-    "src"
-  ],
-  "bs-dependencies": [
-    "reason-react",
-    "bs-css"
-  ],
-  "refmt": 3
+  "bsc-flags": [ "-bs-super-errors" ],
+  "sources": [ "src" ],
+  "suffix": ".bs.js",
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "bs-dependencies": [ "reason-react", "bs-css-emotion", "bs-css" ]
 }

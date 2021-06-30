@@ -3,3 +3,4 @@ lib
 yarn-error.log
 .merlin
 .bsb.lock
+.parcel-cache
